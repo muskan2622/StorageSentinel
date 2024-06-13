@@ -8,8 +8,8 @@ require('dotenv').config();
 const s3Client = new S3Client({
   region: "eu-north-1",  // Update with your bucket's region
   credentials: {
-    accessKeyId:'AKIAXO5HFPLZ5VOHHDGW',
-    secretAccessKey:'+Oe4kp18vZCv63KLFII2BgGvMEWgh56W/Caz6C2U',
+    // accessKeyId:,
+    // secretAccessKey:,
   },
 });
 
